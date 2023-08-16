@@ -1,0 +1,135 @@
+/* ... */
+
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 100px; /* Adjust as needed */
+}
+
+/* .box {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  background-color: #000000;
+  border: 2px solid #bea060;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+.box:hover {
+  background-color: #bea060;
+}
+
+.box-text {
+  margin: 0;
+  font-size:25px;
+  font-weight: bold;
+} */
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh;
+  background-color: black; /* Set the background color to black */
+}
+
+/* ... rest of your styles ... */
+
+.big-bold-text {
+  margin-top:200px;
+  margin-left: 100px;
+  font-size: 90px;
+  font-weight: bold;
+  color: #bea060;
+  margin-bottom: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+
+}
+
+.abtme{
+  color:white;
+  /* margin-left: 10; */
+  font-size: 20px;
+}
+.abtme-div{
+  margin-left: 110px;
+}
+/* ... */
+
+
+.box-stacks {
+  display: flex;
+  margin-left: 100px;
+  /* justify-content: center; */
+  margin-top: 20px;
+}
+
+.box-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3px;
+}
+
+.combined-box {
+  width: 635px;
+  margin-left: 110px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  background-color: #bea060;
+  border: 2px solid #bea060;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+
+.box-button {
+
+  font-size: 24px;
+  font-weight: bold;
+  width: 300px;
+  height: 100px;
+  border: 2px solid #bea060 ;
+  margin: 10px;
+  /* flex: 1;  */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  /* border: none; */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.box-button:hover {
+  background-color: #bea060;
+}
+/* ... rest of your styles ... */
+
+.video-container {
+  margin-left: 100px;
+  width: 500px;
+  background-color: #000000;
+}
+
+.side-video {
+  width: 100%;
+}
